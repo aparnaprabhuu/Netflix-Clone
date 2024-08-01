@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Oswald:wght@200&family=Roboto:wght@300;400;900&family=Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: roboto,sans-serif;
+}
+
+body{
+    color:white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin-inline: 145px;
+}
+
+.language{
+    background-color: black;
+}
+
+.button{
+    background-color: red;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: roboto,sans-serif;
+    font-style: bold;
+    transition: 0.15s;
+}
+
+.button:hover{
+    background-color:rgb(203, 27, 27) ;
+}
+
+.home-page .button{
+    padding: 16px 50px;
+    font-family: roboto,sans-serif;
+    font-weight:500 ;
+    font-size: 22px;
+}
+
+input{
+    padding:16px 98px;
+    background-color: black;
+    border-style: none;
+    border:2px solid gray;
+    border-radius: 4px;
+    margin-right: 4px;
+    font-size: 15px;
+    color:gray ;
+}
+
+.netflix-main-page{
+    padding-top: 25px;    
+    background-color: black;
+    background-image: linear-gradient(rgba(18, 16, 38, 0.6),rgba(18, 16, 38, 0.6)),url(./Images/Netflix-Background.jpg);
+    padding-bottom: 150px;
+}
+
+.netflix-logo{
+    width:150px;
+}
+
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 100px;
+}
+
+.home-page{
+    margin-top:125px;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: roboto,sans-serif;
+    font-style: bold;
+    font-weight: 900;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: roboto,sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    margin-top:15px;
+}
+
+.homepage-lines{
+    width:75%;
+}
+
+.email-box{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-inline: 35px;
+    margin-top:55px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 4px solid;
+    background: linear-gradient(black,black)padding-box,linear-gradient(to right,rgb(215, 38, 38),rgb(35, 35, 110))border-box;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+.email-box p{
+    font-size: 1.2rem;
+}
+
+.divisions{
+   margin-inline: 45px;
+   border-radius: 7px;
+    background-color: rgb(15, 2, 40);
+}
+
+.division-part{
+    height:470px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.division-part img{
+    width:500px;
+}
+
+h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+    font-family: roboto,sans-serif;    
+}
+
+.divisions p{
+    font-size: 1.4rem;
+    font-family: roboto,sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.divisions .container{
+    margin-inline: 100px;
+}
+
+.question-box{
+    display:flex;
+    flex-direction: column;
+}
+
+.question-box a{
+    list-style: none;
+    height: 80px;
+    background-color: rgb(20, 3, 53);
+    margin:4px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    color: white;
+    transition: 0.2s;
+}
+
+.question-box a:hover{
+    background-color:rgb(43, 7, 115) ;
+}
+
+.main-question-box{
+    margin-top: 180px;
+}
+
+.email-box-qb{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-inline: 10px;
+    height: 150px;
+    background: linear-gradient(black,black);
+    border-radius: 8px;
+}
+
+.main-question-box .button{
+    padding: 16px 50px;
+    font-family: roboto,sans-serif;
+    font-weight:500 ;
+    font-size: 22px;
+}
+
+.email-box-qb p{
+    font-size: 1.2rem;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:80%;
+}
+
+.main-footer a{
+    color: rgb(168, 161, 161);
+    padding: 10px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 180px;;
+    color:rgb(162, 158, 158);
+}
+
+.z{
+    font-size: 1.5rem;
+    font-family: roboto,sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    color: white;
+}
