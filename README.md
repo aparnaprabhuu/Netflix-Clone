@@ -1,11 +1,12 @@
 # Netflix Landing Page Clone
 
-This project is a clone of the Netflix landing page, designed to mimic the look and feel of the original site. The landing page includes the following features:<br>
-Home Page: Features the Netflix logo, a "Get started" button, a sign-in option, and a language selection option at the top right.<br>
-About Sections: Provides information about Netflix and its offerings.<br>
-FAQ Section: Includes frequently asked questions with answers to help users understand more about the service.<br>
-Footer: Contains additional links and information.<br>
-This project is a front-end only clone and does not include any backend functionality or actual data. <br><br>
+This project is a clone of the Netflix landing page, designed to mimic the look and feel of the original site.<br> The landing page includes the following features:
+- **Home Page**: Features the Netflix logo, a "Get started" button, a sign-in option, and a language selection option at the top right.
+- **About Sections**: Provides information about Netflix and its offerings.
+- **FAQ Section**: Includes frequently asked questions with answers to help users understand more about the service.
+- **Footer**: Contains additional links and information.<br>
+
+This project is a front-end only clone and does not include any backend functionality or actual data. 
 
 ![Netflix-1](https://github.com/user-attachments/assets/72c484da-67db-4a09-a5ce-3b6601f1a62d)
 
